@@ -8,12 +8,12 @@ services:
   install:
     extends:
       service: base
-    command: nmp i
+    command: npm i
   build:
     extends:
       service: base
     command: npm run build
-  create-bundles:
+  install-bundles:
     extends:
       service: base
-    command: npm run create-bundles
+    command: npm run install-bundles
