@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hive-hexo
+theme: simple
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

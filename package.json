@@ -16,15 +16,15 @@
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-pug": "^1.0.0",
+    "hexo-renderer-sass": "^0.4.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0"
   },
   "scripts": {
-    "dev": "nodemon -x \"npm run bundleserve\"",
-    "bundleserve": "npm run create-bundles && npm run serve",
-    "install-bundles": "cd ./themes/hive-hexo/ && npm i",
-    "create-bundles": " cd ./themes/hive-hexo/ && npm run build",
-    "build": "hexo build",
+    "dev": "nodemon -x \"npm run serve\"",
+    "bundleserve": "npm run serve",
+    "install-bundles": "cd ./themes/simple/ && npm i",
+    "create-bundles": " cd ./themes/simple/ && npm run generate:sw",
     "serve": "hexo server"
   },
   "nodemonConfig": {
@@ -32,11 +32,12 @@
     "ext": "js,json,pug,md,scss",
     "ignore": [
       "db.json",
-      "/themes/hive-hexo/source/",
-      "/themes/hive-hexo/node_modules/"
+      "/themes/simple/source/"
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "pug": "^2.0.4",
+    "sass": "^1.26.5"
   }
 }
