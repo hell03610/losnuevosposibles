@@ -1,0 +1,12 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+}
+
+::selection {
+  background-color: $selected-background-color;
+  color: $selected-text-color;
+}
+

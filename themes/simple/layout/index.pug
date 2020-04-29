@@ -10,7 +10,7 @@ mixin possibility(post)
 
     footer
       p
-        a(href= url_for(post.path)) Seguir leyendo
+        a(class='read-more' href= url_for(post.path)) Seguir leyendo
 
 block content
   section.intro

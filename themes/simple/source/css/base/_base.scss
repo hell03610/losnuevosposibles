@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: $text-color;
+  text-decoration: none;
+
+  @include on-event {
+    text-decoration: none;
+  }
+}
+
+h1, h1 a {
+  color: $white;
+}
+
+p a {
+  background-image: linear-gradient(120deg, #c1e542 0%, #4fff52 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.1em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in, color 0.25s ease-in;
+  &:hover {
+    background-size: 100% 100%;
+    color: $black;
+  }
+}
+
+a.read-more {
+  color: $white;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #c1e542;
+  background-image: none;
+  transition: none;
+  &:hover {
+    background: -webkit-gradient(linear,left top,right top,from(#c1e542),to(#4fff52));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration-color: $white;
+  }
+}
+
+
+ul {
+  margin: 0;
+  list-style: square;
+}
+
+/**
+ * Main content containers
+ * 1. Make the container full-width with a maximum width
+ * 2. Center it in the viewport
+ * 3. Leave some space on the edges, especially valuable on small screens
+ */
+  .container {
+    max-width: 73rem; /* 1 */
+    margin: 0 auto; /* 2 */
+    padding: 0 $space-large; /* 3 */
+    width: 100%; /* 1 */
+
+    @include size-large {
+      padding: 0 $space-medium;
+    }
+  }
+
