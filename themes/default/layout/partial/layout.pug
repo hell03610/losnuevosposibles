@@ -1,0 +1,28 @@
+doctype html
+-var lng = config.language
+
+
+html(lang= lng)
+    head
+        title= config.title
+        link(rel='alternate' href='/atom.xml' type='application/atom.xml')
+        meta(charset='UTF-8')
+        link(rel='icon', href=url_for('images/favicon.png'))
+        link(rel='stylesheet', href=url_for('css/style.css'))
+
+    body
+        include header.pug
+
+        main
+          section.container
+              block content
+
+          section.pagination
+              block pagination
+
+        footer.container
+            block footer
+              include ../mixin/footer.pug
+              - for (var i in theme.footer)
+                  +footer([{name: theme.footer[i].item , href: theme.footer[i].directory}])
+

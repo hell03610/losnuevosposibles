@@ -1,0 +1,11 @@
+block header
+    header.main-header
+      a.logo(href='/')
+
+      nav.main-navbar
+        ul
+          each item in theme.menu
+            li
+              a(href= item.directory)= item.name
+
+

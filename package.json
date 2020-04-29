@@ -21,8 +21,8 @@
   "scripts": {
     "dev": "nodemon -x \"npm run bundleserve\"",
     "bundleserve": "npm run create-bundles && npm run serve",
-    "install-bundles": "cd ./themes/hive-hexo/ && npm i",
-    "create-bundles": " cd ./themes/hive-hexo/ && npm run build",
+    "install-bundles": "cd ./themes/default/ && npm i",
+    "create-bundles": " cd ./themes/default/ && npm run build",
     "build": "hexo build",
     "serve": "hexo server"
   },
