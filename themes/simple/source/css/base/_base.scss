@@ -71,8 +71,11 @@ ul {
  * 2. Center it in the viewport
  * 3. Leave some space on the edges, especially valuable on small screens
  */
+  body > main {
+    padding: 4vw;
+  }
+
   .container {
-    max-width: 73rem; /* 1 */
     margin: 0 auto; /* 2 */
     padding: 0 $space-large; /* 3 */
     width: 100%; /* 1 */

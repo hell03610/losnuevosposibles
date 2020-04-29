@@ -1,5 +1,12 @@
 .possibilities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
   article {
+    max-width: 450px;
+    padding: 10px 30px;
+
     h1 {
       font-family: 'Bebas Neue', sans-serif;
       font-size: 3rem;
