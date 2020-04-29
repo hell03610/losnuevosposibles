@@ -1,0 +1,14 @@
+menu:
+  - page: posibilidades
+    directory: /
+  - page: enviar
+    directory: /
+  - page: recursos
+    directory: /
+  - page: acerca de
+    directory: /acerca-de/
+  - page: archive
+    directory: /archives/
+  - page: rss
+    directory: /atom.xml
+

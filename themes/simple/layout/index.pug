@@ -1,1 +1,24 @@
 extends partial/layout.pug
+
+mixin possibility(post)
+  article
+    header
+      h1
+        a(href= url_for(post.path))= post.title
+
+    section !{post.excerpt}
+
+    footer
+      p
+        a(href= url_for(post.path)) Seguir leyendo
+
+block content
+  section.intro
+    p intro goes here
+
+  section.possibilities
+
+    - page.posts.sort('date',-1).each(function (item) {
+      +possibility(item)
+      p
+    - })

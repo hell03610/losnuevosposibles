@@ -3,7 +3,17 @@ doctype html
 
 html(lang= lng)
     head
+      meta(charset='UTF-8')
+      link(rel='icon', href=url_for('images/favicon.png'))
       link(rel='stylesheet', href=url_for('css/style.css'))
 
+
     body
-      p Hola mundo
+      include header.pug
+
+      main
+        section.container
+
+        block content
+
+      footer

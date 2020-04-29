@@ -22,9 +22,6 @@
   },
   "scripts": {
     "dev": "nodemon -x \"npm run serve\"",
-    "bundleserve": "npm run serve",
-    "install-bundles": "cd ./themes/simple/ && npm i",
-    "create-bundles": " cd ./themes/simple/ && npm run generate:sw",
     "serve": "hexo server"
   },
   "nodemonConfig": {
@@ -32,12 +29,10 @@
     "ext": "js,json,pug,md,scss",
     "ignore": [
       "db.json",
-      "/themes/simple/source/"
+      "themes/simple/_config.yml"
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.3",
-    "pug": "^2.0.4",
-    "sass": "^1.26.5"
+    "nodemon": "^2.0.3"
   }
 }

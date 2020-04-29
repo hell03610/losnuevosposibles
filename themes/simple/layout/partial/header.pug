@@ -1,0 +1,9 @@
+block header
+  header.main-header
+  a(class='logo' href='/')= config.title
+  nav.site-nav
+    ul
+      each item in theme.menu
+        li
+          a(href=item.directory)= item.page
+

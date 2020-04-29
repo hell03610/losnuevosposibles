@@ -8,3 +8,4 @@ collection: migración
 
 [Mira el video "You Clap for Me Now"](https://www.theguardian.com/global/video/2020/apr/15/you-clap-for-me-now-the-coronavirus-poem-on-racism-and-immigration-in-britain-video), el poema del coronavirus sobre el racismo y la inmigración en Gran Bretaña.
 
+<!-- more -->
