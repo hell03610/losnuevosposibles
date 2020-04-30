@@ -1,0 +1,54 @@
+.possibility {
+  article {
+    margin-bottom: 3rem;
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.7;
+    }
+  }
+
+  .pagination {
+    display:flex;
+    justify-content: space-between;
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2rem;
+      max-width: 45%;
+    }
+
+    .pagination-next a,
+    .pagination-prev a {
+      display: flex;
+
+      &:hover {
+        background: -webkit-gradient(linear,left top,right top,from(#c1e542),to(#4fff52));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .pagination-next {
+      text-align: right;
+    }
+
+    .right-caret,
+    .left-caret {
+      width: 25px;
+      fill: $white;
+    }
+
+    .right-caret {
+      margin-left: 2rem;
+    }
+
+    .left-caret {
+      margin-right: 2rem;
+    }
+  }
+}

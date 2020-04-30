@@ -28,7 +28,7 @@ a {
   }
 }
 
-h1, h1 a {
+h1 {
   color: $white;
 }
 
@@ -41,21 +41,6 @@ p a {
   &:hover {
     background-size: 100% 100%;
     color: $black;
-  }
-}
-
-a.read-more {
-  color: $white;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: #c1e542;
-  background-image: none;
-  transition: none;
-  &:hover {
-    background: -webkit-gradient(linear,left top,right top,from(#c1e542),to(#4fff52));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration-color: $white;
   }
 }
 
