@@ -14,10 +14,10 @@ mixin possibility(post)
 
 block content
   section.intro
-    p intro goes here
+    h1= site.data.simple.title
+    .description !{site.data.simple.description}
 
   section.possibilities
-
     - page.posts.sort('date',-1).each(function (item) {
       +possibility(item)
     - })

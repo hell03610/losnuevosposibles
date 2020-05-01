@@ -50,6 +50,14 @@ p a {
     color: $black;
   }
 }
+p {
+  line-height: 1.7;
+  font-size: 1rem;
+
+  @include size-medium {
+    font-size: 1.2rem;
+  }
+}
 
 article {
   h1 {
@@ -64,14 +72,6 @@ article {
 
     @include size-medium {
       font-size: 2rem;
-    }
-  }
-  p {
-    line-height: 1.7;
-    font-size: 1rem;
-
-    @include size-medium {
-      font-size: 1.2rem;
     }
   }
 }
