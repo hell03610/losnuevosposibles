@@ -16,12 +16,12 @@ block content
       section !{page.content}
 
     section.pagination
-      h1.pagination-prev
+      h2.pagination-prev
         if page.prev
           a(href= url_for(page.prev.path))
             +leftCaret
             span= page.prev.title
-      h1.pagination-next
+      h2.pagination-next
         if page.next
           a(href= url_for(page.next.path))
             span= page.next.title
