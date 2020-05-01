@@ -3,18 +3,31 @@
     margin-bottom: 3rem;
 
     h1 {
-      font-size: 5rem;
+      font-size: 2.5rem;
+
+      @include size-medium {
+        font-size: 5rem;
+      }
     }
   }
 
   .pagination {
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
+
+    @include size-medium {
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
     h2 {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 2rem;
-      max-width: 45%;
+      max-width: 100%;
+      font-size: 1.2rem;
+
+      @include size-medium {
+        font-size: 2rem;
+        max-width: 45%;
+      }
     }
 
     .pagination-next a,
@@ -35,8 +48,9 @@
 
     .right-caret,
     .left-caret {
-      width: 25px;
+      height: 25px;
       fill: $white;
+      margin: auto;
     }
 
     .right-caret {

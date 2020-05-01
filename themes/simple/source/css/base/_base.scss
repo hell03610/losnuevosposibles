@@ -1,7 +1,8 @@
 html {
-  box-sizing: border-box;
   background-color: $background-color;
   color: $text-color;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 /**
@@ -52,14 +53,26 @@ p a {
 
 article {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+
+    @include size-medium {
+      font-size: 3rem;
+    }
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.2rem;
+
+    @include size-medium {
+      font-size: 2rem;
+    }
   }
   p {
-    font-size: 1.2rem;
     line-height: 1.7;
+    font-size: 1rem;
+
+    @include size-medium {
+      font-size: 1.2rem;
+    }
   }
 }
 
@@ -80,7 +93,7 @@ ul {
 
   .container {
     margin: 0 auto; /* 2 */
-    padding: 0 $space-large; /* 3 */
+    padding: 0 $space-small; /* 3 */
     width: 100%; /* 1 */
 
     @include size-large {
