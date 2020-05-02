@@ -9,4 +9,5 @@ menu:
     directory: /acerca-de/
   - page: rss
     directory: /atom.xml
-
+twitter_meta: true
+open_graph_meta: true
