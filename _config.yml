@@ -3,17 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Los nuevos posibles
 subtitle: ''
-description: ''
+description: 'Una colección incompleta y en evolución de los nuevos posibles'
 keywords:
-author: John Doe
-language: 'es'
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://losnuevosposibles.es
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -56,10 +54,10 @@ highlight:
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
-#index_generator:
-#  path: ''
-#  per_page: 0
-#  order_by: -date
+index_generator:
+  path: ''
+  per_page: 0
+  order_by: -date
 
 # Category & Tag
 default_category: uncategorized
@@ -93,7 +91,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: default
+theme: simple
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

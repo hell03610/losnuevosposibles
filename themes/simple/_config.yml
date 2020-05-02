@@ -1,0 +1,13 @@
+menu:
+  - page: posibilidades
+    directory: /
+  - page: enviar
+    directory: /enviar/
+  - page: recursos
+    directory: /recursos/
+  - page: acerca de
+    directory: /acerca-de/
+  - page: rss
+    directory: /atom.xml
+twitter_meta: true
+open_graph_meta: true

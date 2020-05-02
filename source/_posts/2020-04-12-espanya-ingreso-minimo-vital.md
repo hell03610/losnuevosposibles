@@ -8,3 +8,4 @@ collection: economía
 
 Si bien el ingreso mínimo vital parece similar a los beneficios básicos por desempleo que ya existen en otros países europeos, esto es algo que la Seguridad Social en España no ha ofrecido hasta ahora. "Va a ser algo estructural, permanente, está aquí para quedarse", el ministro de Seguridad Social de España José Luis Escrivá dijo en una entrevista al [periódico El País](https://elpais.com/economia/2020-04-12/jose-luis-escriva-tras-un-seismo-se-invierte-en-infraestructuras-aqui-hay-que-proteger-rentas.html).
 
+<!-- more -->

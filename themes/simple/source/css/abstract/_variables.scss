@@ -1,0 +1,21 @@
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$white: rgb(255, 255, 255) !default;
+$light-grey: rgb(200, 200, 200) !default;
+$black: #100e17;
+
+
+$text-color: $light-grey;
+$background-color: $black;
+$link-color: $white;
+$text-color-secondary: rgb(100, 100, 100);
+$selected-background-color: #4fff52;
+$selected-text-color: $black;
+
+$space-small: rem(10);
+$space-medium: rem(20);
+$space-large: rem(40);
+$space-larger: rem(60);
+
+$max-width: 64rem !default;
+

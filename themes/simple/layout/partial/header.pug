@@ -1,0 +1,14 @@
+block header
+  header.main-header
+    nav.main-navigation
+      .menuToggle
+        input(type='checkbox')
+        span
+        span
+        span
+        ul.menu
+          each item in theme.menu
+            li
+              a(href=item.directory)= item.page
+
+      a(class='title' href='/')= config.title
