@@ -9,11 +9,7 @@ services:
     extends:
       service: base
     command: npm i
-  build:
+  start:
     extends:
       service: base
-    command: npm run build
-  install-bundles:
-    extends:
-      service: base
-    command: npm run install-bundles
+    command: npm run start

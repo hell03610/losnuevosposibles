@@ -21,8 +21,9 @@
     "hexo-server": "^1.0.0"
   },
   "scripts": {
-    "dev": "nodemon -x \"npm run serve\"",
-    "serve": "hexo server"
+    "start": "nodemon -x \"npm run serve\"",
+    "serve": "hexo server",
+    "deploy": "hexo clean && hexo generate && mv public/index.html public/200.html && surge public"
   },
   "nodemonConfig": {
     "verbose": true,
@@ -33,6 +34,7 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "surge": "^0.21.3"
   }
 }
