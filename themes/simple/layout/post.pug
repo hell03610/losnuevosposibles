@@ -11,6 +11,8 @@ mixin leftCaret
 block content
   section.possibility
     article
+      section.meta !{list_categories(page.categories)} | #{date(page.date, 'DD/MM')}
+
       header
         h1= page.title
       section !{page.content}

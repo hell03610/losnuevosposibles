@@ -2,8 +2,35 @@
   article {
     margin-bottom: 3rem;
 
+    .meta {
+      .category-list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline;
+      }
+      .category-list li {
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline;
+
+        &:after {
+          content: ", ";
+        }
+
+        &:last-child:after {
+          content: '';
+        }
+      }
+      .category-list-count {
+        display: none;
+      }
+    }
+
+
     h1 {
       font-size: 2.5rem;
+      margin-top: 1rem;
 
       @include size-medium {
         font-size: 5rem;
