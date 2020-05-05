@@ -37,6 +37,32 @@
 
   article {
     justify-self: left;
+    margin-bottom: 3rem;
+
+    .meta {
+      .category-list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline;
+      }
+      .category-list li {
+        text-transform: uppercase;
+        display: inline;
+
+        &:after {
+          content: ", ";
+        }
+
+        &:last-child:after {
+          content: '';
+        }
+      }
+
+      .category-list-count {
+        display: none;
+      }
+    }
 
     a.read-more {
       color: $white;
@@ -51,6 +77,9 @@
         -webkit-text-fill-color: transparent;
         text-decoration-color: $white;
       }
+    }
+    h1 {
+      margin-top: 1rem;
     }
     h1 a {
       &:hover {

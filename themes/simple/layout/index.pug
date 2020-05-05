@@ -2,6 +2,8 @@ extends partial/layout.pug
 
 mixin possibility(post)
   article
+    section.meta !{list_categories(post.categories)} | #{date(post.date, 'DD/MM')}
+
     header
       h1
         a(href= url_for(post.path))= post.title

@@ -1,7 +1,7 @@
 ---
 title: El agua de los canales de Venecia es la más clara de la memoria viva
 date: 2020-03-16
-category: medio ambiente
+categories: medio ambiente
 tags: italia, contaminación, venecia
 ---
 

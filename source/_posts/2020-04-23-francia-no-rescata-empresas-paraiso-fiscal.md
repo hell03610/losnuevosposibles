@@ -1,7 +1,7 @@
 ---
 title: "Francia: no hay rescates para empresas registradas en paraísos fiscales"
 date: 2020-04-23
-collection: economía
+categories: economía
 ---
 
 Tras Dinamarca y Polonia, Francia se convierte en el último país en prohibir rescates para las compañías registradas en paraísos fiscales extraterritoriales.

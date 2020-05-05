@@ -1,7 +1,7 @@
 ---
 title: España discute una renta básica para los más pobles
 date: 2020-04-12
-collection: economía
+categories: economía
 ---
 
 12/04/2020 No, España no se convertirá en el primer pais europeo en [desplegar una renta básica universal para mitigar el impacto del coronavirus](https://www.dw.com/en/spain-discusses-basic-income-for-the-poorest-amid-coronavirus-fallout/a-53096390). En su lugar, el gobierto introducirá un "ingreso mínimo vital" para las familias monoparentales vulnerables. Hasta 100.000 familias se podrán beneficiar, pero esto está aún muy lejos de la idea de un ingreso básico universal, que, por definición, es universal y no depende de la necesidad.
