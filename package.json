@@ -30,7 +30,8 @@
     "ext": "js,json,pug,md,scss",
     "ignore": [
       "db.json",
-      "themes/simple/_config.yml"
+      "themes/simple/_config.yml",
+      "public/"
     ]
   },
   "devDependencies": {
