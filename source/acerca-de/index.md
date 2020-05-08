@@ -12,6 +12,5 @@ Este es un proyecto personal para darnos esperanza.
 Si quieres unirte o echar una mano en el sitio de referencia, escribe a suddenlypossible@gmail.com.
 También puedes [enviarles nuevas posibilidades](http://thenewpossible.space/submit-possibilities).
 
-Traducción al castellano mantenida por [Emma López](https://twitter.com/hell03610).
-Contacta con el sitio es castellano en hola@losnuevosposibles.es
+Traducción al castellano mantenida por [Emma López](https://twitter.com/hell03610). Contacta con el sitio es castellano en losnuevosposibles@fastmail.com.
 
